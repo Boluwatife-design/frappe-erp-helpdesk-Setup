@@ -1,0 +1,11 @@
+# Never commit secrets or data
+*.sql
+*.sql.gz
+*.tar
+*.tar.gz
+*.env
+site_config.json
+common_site_config.json
+*token*
+backups/
+.DS_Store
