@@ -23,5 +23,6 @@ Build a second VM at home with sections 1 to 5, and keep it **off** (or with no 
 1. Restore the latest backup on the home VM ([09](09-disaster-recovery.md)).
 2. Stop the tunnel connector on the failed server, or delete it in Cloudflare.
 3. Start the connector on the home VM.
+<img width="928" height="671" alt="Screenshot 2026-11-16 142830" src="https://github.com/user-attachments/assets/6c37e6d9-1926-4732-b5aa-baa7f732ed48" />
 
 Only one connector may be active at a time.
