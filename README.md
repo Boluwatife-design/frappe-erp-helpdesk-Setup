@@ -53,6 +53,10 @@ The important Ubuntu 26.04 specifics (Python 3.14, Node 24, uv, Helpdesk `main`)
 | `scripts/backup-offsite.sh` | `frappe` (cron) | Copy backups to a home PC over Tailscale |
 | `scripts/restore.sh` | `frappe` | Restore a backup onto a fresh site |
 
+<img width="1419" height="973" alt="Screenshot 2026-11-16 144509" src="https://github.com/user-attachments/assets/e1dc9763-8258-44c5-89b0-1839eb3ce4a9" /><img width="1406" height="976" alt="Screenshot 2026-11-16 144428" src="https://github.com/user-attachments/assets/dfbc0095-9ace-410a-a0b9-44c24bea51a4" />
+
+<img width="1652" height="959" alt="Screenshot 2026-11-16 144453" src="https://github.com/user-attachments/assets/115f4d44-e6e6-42c1-8126-ee149c25a997" />
+
 Read the docs before running scripts. The scripts stop at the points that need your input
 (passwords, Cloudflare dashboard).
 
