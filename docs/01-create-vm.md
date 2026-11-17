@@ -7,6 +7,7 @@
 | CPUs | 2 or more |
 | Disk | 60 GB, dynamically allocated |
 | Network | **Bridged Adapter** (NAT also works, the tunnel is outbound only) |
+<img width="1889" height="997" alt="image" src="https://github.com/user-attachments/assets/38c54900-516f-4e94-a8fc-67e887d46875" />
 
 During install, enable **OpenSSH server** if offered.
 
