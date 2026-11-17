@@ -6,6 +6,7 @@ The site name **must equal the public hostname**, because Frappe routes by hostn
 cd ~/frappe-bench
 bench new-site helpdesk.example.com
 ```
+<img width="788" height="290" alt="Screenshot 2026-11-16 131742" src="https://github.com/user-attachments/assets/3c8eeca1-077d-410b-a5d7-d40c990f8121" />
 
 Prompts:
 
@@ -40,5 +41,6 @@ bench --site helpdesk.example.com set-config host_name "https://helpdesk.example
 bench --site helpdesk.example.com enable-scheduler
 bench --site helpdesk.example.com list-apps
 ```
+<img width="1061" height="831" alt="Screenshot 2026-11-16 140029" src="https://github.com/user-attachments/assets/829af8f8-e908-4a84-ba34-dfece871fe9e" />
 
 Expected: `frappe`, `erpnext`, `telephony`, `helpdesk`. A Redis "connection refused" on port 11000 during install is expected before production setup.
